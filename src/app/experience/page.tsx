@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import React, { useState } from "react";
 import { TbArrowBackUp } from "react-icons/tb";
