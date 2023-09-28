@@ -1,4 +1,4 @@
-"use client";
+
 
 import React, { useEffect } from "react";
 import { TbArrowBackUp } from "react-icons/tb";
