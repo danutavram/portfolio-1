@@ -24,19 +24,18 @@ const marqueeVariants = {
 const projects = [
   {
     imgLink: "/img/img1.jpg",
-    title: "UI/UX Case Study: Group Food Ordering",
-    subT: "Designed a solution that simplifies the decision-making process and saves time for users while ordering food in a group.",
+    title: "Lorem ipsum dolor sit amet",
+    subT: "Donec eu leo ut justo ullamcorper malesuada. Vivamus nec lectus vitae justo congue volutpat.",
   },
   {
     imgLink: "/img/img2.jpg",
-    title:
-      "UI/ UX Case Study: Enabling local stores to sell on WhatsApp for Businesses",
-    subT: "Designed a feature that simplifies local store sales on WhatsApp for businesses..",
+    title: "Lorem ipsum dolor sit amet",
+    subT: "Donec tincidunt, purus id bibendum euismod, urna felis congue arcu, sit amet tristique tellus sem ut arcu. Proin a ipsum non lectus condimentum eleifend.",
   },
   {
     imgLink: "/img/img3.jpg",
-    title: "Creating Dive platform's Trivia Game",
-    subT: "Designed a trivia game to enhance user engagement during sessions on Dive platform.",
+    title: "Lorem ipsum dolor sit amet",
+    subT: "Proin a ipsum non lectus condimentum eleifend",
   },
 ];
 
@@ -47,7 +46,7 @@ let link = [
     title: "Product Design Intern",
     sub: "Avalon Scenes",
     subTitle:
-      "At Scenes, we were building an all-in-one community platform that enables creators to connect & manage their community better.",
+      "Vestibulum fermentum felis at justo tincidunt, in luctus justo volutpat. Vivamus id justo metus.",
     bttn: "View my work",
   },
   {
@@ -106,14 +105,15 @@ function page() {
         </h3>
 
         <p className="dark:text-neutral-300 font-InterMedium mt-3">
-          I’m crafting exceptional products that blend Design and Engineering.
-          Making Impactful experiences with beauty and function. Currently ,
-          looking for new opportunities to collaborate with people.
+          Suspendisse potenti. Fusce ac nunc vel libero vestibulum consectetur.
+          Integer ut urna metus. Duis tincidunt ligula eu bibendum eleifend.
+          Aliquam ut ultricies ipsum. Maecenas a lacinia turpis. Fusce nec
+          facilisis mi, a bibendum arcu.
         </p>
         <p className="mt-6 dark:text-neutral-300 max-sm:text-sm font-InterMedium">
-          My objective is straightforward, to create exceptional things
-          alongside exceptional individuals. By collaborating harmoniously, we
-          can accomplish this goal.
+          Vivamus fringilla tincidunt efficitur. Phasellus euismod, tortor a
+          tincidunt varius, metus tortor convallis odio, at volutpat elit lectus
+          nec lectus. Sed euismod tortor a tellus bibendum feugiat.
         </p>
 
         <button className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
@@ -161,11 +161,11 @@ function page() {
               <div>
                 <div className="w-fit flex items-center gap-x-2">
                   <div className="px-2 py-1 text-xs font-semibold border rounded-full dark:border-neutral-700">
-                    <span>2022</span>
+                    <span>2023</span>
                   </div>
                   <div>
                     <Status
-                      Relaxing
+                      NotAvailable
                       className="border rounded-full dark:border-neutral-700 px-2 py-1"
                     />
                   </div>

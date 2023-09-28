@@ -3,24 +3,24 @@
 import React, { useState } from "react";
 
 const Status = [
-    {
-      Available: {
-        name: "Available  for work",
-        color: "lime",
-      },
-  
-      NotAvailable: {
-        name: "I'm close for now",
-        color: "red",
-      },
-      Relaxing: {
-        name: "Completed",
-        color: "lime",
-      },
+  {
+    Available: {
+      name: "Available for work",
+      color: "lime",
     },
-  ];
 
-  function Statuspage({ isAvailable, Relaxing, className }: any) {
+    NotAvailable: {
+      name: "I'm close for now",
+      color: "red",
+    },
+    Relaxing: {
+      name: "Completed",
+      color: "lime",
+    },
+  },
+];
+
+function Statuspage({ isAvailable, Relaxing, className }: any) {
   let [status, setStatus] = useState(
     isAvailable
       ? Status[0].Available
@@ -29,13 +29,15 @@ const Status = [
       : Status[0].NotAvailable
   );
 
-  let bgColorClass =
+  let bgColorClass = 
     status === Status[0].Available
-      ? "bg-lime-400"
-      : Status[0].Relaxing
-      ? "bg-lime-400 "
-      : "bg-red-600";
-    //
+    ? "bg-lime-400"
+    : status === Status[0].Relaxing
+    ? "bg-lime-600"
+    : status === Status[0].NotAvailable
+    ? "bg-red-600"
+    : "";
+  //
   return (
     <div>
       <span
